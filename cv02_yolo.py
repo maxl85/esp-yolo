@@ -20,6 +20,8 @@ while True:
     # if (results[0].boxes.shape[0] > 0):
     #     res = requests.get('http://192.168.1.1/ledon')
     #     print(res)
+    # else:
+    #     res = requests.get('http://192.168.1.1/ledoff')
     
     
     cv2.imshow('WebCam', plot_res)

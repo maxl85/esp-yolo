@@ -102,6 +102,8 @@ while True:
         # if (name == known_face_names[0]):
         #     res = requests.get('http://192.168.1.1/ledon')
         #     print('Barack Obama')
+        # else:
+        #     res = requests.get('http://192.168.1.1/ledoff')
 
     # Display the resulting image
     cv2.imshow('Video', frame)
